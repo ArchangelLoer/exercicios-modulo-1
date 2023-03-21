@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra as imagens em vários dispositivos (ou só diminua o tamanho do navegador)</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" 
+        type="image/png">
+        <img src="imagens/grande.png" alt="grande">
+    </picture>
+    <p>Sempre colocar em ordem de menor pra maior de cima pra baixo, com a imagens original a maior de toda e a &lt;source:media:type&gt; as menores</p>
+
+    <h1>Áudios!</h1>
+    <p>Clique abaixo para pop pop pop pop</p>
+    <audio src="media/bopbopbopbop.mp3" controls autoplay></audio>
+</body>
+</html>

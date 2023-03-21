@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Ordenadas:</h2>
+    <ol>
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>arrumar a cama
+    </ol>
+    <p>Importante saber que a tag usada foi &lt;ol&gt;, e dentro disso, &lt;li&gt;</p>
+
+    <ol type="A">
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>arrumar a cama
+    </ol>
+
+    <ol type="1" start="10">
+        <li>Almoçar
+        <li>Tomar banho
+        <li>Estudar
+        <li>Começar a se arrumar
+    </ol>
+    <p>Usando Style no &lt;ol&gt;, dá para alterar o tipo de ordem de lista, e usando start, dá para alterar o número/letra inicial, como visto nas listas acima</p>
+
+    <h2>Lista não Ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+        <li>Mortadela</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <p>Utilizando &lt;ul&gt;, dá para fazer uma lista não ordenada, e como o caso das listas ordenadas, o type pode alterar o estilo em que essa lista está organizada, os tipos aqui são: <br> <code>1 A a I i</code></p>
+
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+        <li>Mortadela</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <p>Como dá para ver, escrevendo square no type, ao invés dos pontos demarcando cada item, é um quadrado que faz isso, os tipos aqui são: <br> <code>disc circle square</code> </p>
+
+    <h2>Minhas Línguas Favoritas</h2>
+    <ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>finlandês</li>
+            <li>Sueco</li>
+            <li>Alemão</li>
+        </ol>
+        <li>Antigas</li>
+        <ol type="a" start="4">
+            <li>Inglês</li>
+            <li>Português</li>
+            <li>Russo</li>
+            <li>Japonês</li>
+        </ol>
+    </ol>
+    <p>Importante anotar, mesmo que a lista use type="a", o start não pode ser por exemplo start="d", mas sim start="4"</p>
+
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Playstation 3</li>
+        <ul type="square">
+            <li>Little Big Planet</li>
+            <ul type="circle">
+                <li>Little Big Planet 2</li>
+                <li>Little Big Planet 3</li>
+            </ul>
+        <li>Destiny</li>    
+        </ul>
+        <li>Playstation 4</li>
+        <ul type="square">
+            <li>Infamous Second Son</li>
+            <li>GTA V</li>
+            <li>Metal Gear Solid V: Phanton Pain</li>
+        </ul>
+        <li>Nintendo Switch</li>
+        <ul type="square">
+            <li>Tzol Breath of the Wild</li>
+            <li>Mario</li>
+            <ul type="circle">
+                <li>Mario Maker 2</li>
+                <li>Mario Odyssey</li>
+            </ul>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo (usa &lt;dt&gt;)</dt>
+        <dd>descrição do termo (usa dd&lt;dd&gt;)</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+    </dl>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+</head>
+<body>
+   <h1>Outras Formatações</h1> 
+   <h2>Código-fonte& Pre-formatado</h2>
+   <p>"O comando <code>document.getElementByld('teste')</code> é escrito em linguagem javascript" <br> usando o tag &lt;code&gt;, o código fica escrito com uma fonte monoespaçada </p>
+   <p>aqui embaixo, vai ter um codigo em python</p>
+   <pre>
+       <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do programa')
+       </code>
+   </pre>
+   <p>O importante desse código, é que foi utilizado a tag &lt;pre&gt; para deixar ele organizadinho nessa carinha de codigo, ao invés do texto normal que temos</p>
+
+   <h2>Citações</h2>
+   <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido <br> as " foram usadas com a tag &lt;q&gt;</q></p>
+
+   <h2>Citações completas</h2>
+   <p>Ao invés de copiar algo muito grande, vou colocar um Lorem e linkar a um reddit de imagens de gatos:</p>
+   <blockquote cite="https://www.reddit.com/r/cats/">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magnam assumenda ipsa nisi, deleniti voluptatum aliquid unde enim excepturi est provident distinctio labore suscipit iusto inventore tempora earum ut quas.
+   </blockquote>
+   <p>Usando blockquote, as ferramentas de busca identificam que o texto foi citado de tal url</p>
+
+   <h2>abreviações</h2>
+   <p>Estou estudando <abbr title="HyperText Markup Languege">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando! <br> usando a tag &lt;abbr&gt; dá pra botar uma descrição numa abreviação</p>
+
+   <h2>Texto invertido</h2>
+   <p><bdo dir="rtl">Esse texto está invertido, boo</bdo> <br> Usando a tag &lt;bdo&gt;, é importante caso você por algum motivo queira o texto invertido, usar o bdo:rtl</p>
+</body>
+</html>
